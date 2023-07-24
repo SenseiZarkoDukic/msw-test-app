@@ -1,7 +1,4 @@
-import { handlers } from "./mocks/handlers";
-
 export default function App() {
-  console.log(handlers);
   return (
     <div className="App">
       <div className="form">
