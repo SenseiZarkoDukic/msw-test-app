@@ -1,4 +1,8 @@
+import { RestHandler } from "msw";
+import { worker } from "./mocks/browser";
+
 export default function App() {
+  console.log(worker.listHandlers()[0].info);
   return (
     <div className="App">
       <div className="form">
